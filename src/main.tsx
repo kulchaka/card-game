@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import Home from './pages/home/Home.tsx'
 import './index.css'
-import PWABadge from './PWABadge.tsx'
+import PWABadge from './types/ui/pwa-badge/PWABadge.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<App />
+		<Home />
 		<PWABadge />
 	</React.StrictMode>
 )
